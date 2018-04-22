@@ -1,0 +1,15 @@
+[package]
+name = "udp_sas_mio"
+version = "0.1.2"
+authors = ["Anthony Baire <ayba@free.fr>"]
+description = "Source address selection for UDP mio sockets"
+keywords = ["udp", "mio", "IP_PKTINFO", "IPV6_RECVPKTINFO"]
+categories = ["network-programming", "os::unix-apis"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/a-ba/udp_sas_mio"
+readme = "README.md"
+
+
+[dependencies]
+udp_sas = "0.1.2"
+mio = "0.6"
