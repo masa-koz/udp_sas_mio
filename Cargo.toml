@@ -9,6 +9,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/a-ba/udp_sas_mio"
 readme = "README.md"
 
+edition = "2018"
 
 [dependencies]
 udp_sas = "0.1.2"
