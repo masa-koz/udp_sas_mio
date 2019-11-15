@@ -12,7 +12,7 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-udp_sas = { path = "../udp_sas" }
+udp_sas = { git = "https://github.com/masa-koz/udp_sas", branch = "kozuka-add_support_windows" }
 mio = { git = "https://github.com/tokio-rs/mio" }
 
 [target.'cfg(target_family="windows")'.dependencies]
